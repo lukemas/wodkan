@@ -6,8 +6,8 @@ padding: 0 15px;
 
 .bgimage {
     width:100%;
-    height: 750px;
-    background: url('http://wodkantheme.local/wp-content/uploads/2021/05/hero-img.jpg');
+    height: 684px;
+    background: url('http://wk.local/wp-content/uploads/2021/05/baner.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
@@ -20,7 +20,7 @@ padding: 0 15px;
 
   .hero-card-wrapper {
     position: relative;
-    top: 27rem;
+    top: 19rem;
     display: flex;
     flex: 0 0 100%;
     margin: 0 auto;
@@ -54,3 +54,33 @@ padding: 0 15px;
     position: relative;
     top: 11rem;
 }
+  h1 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 68px/66.48px var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--białe);
+  text-align: center;
+  font: normal normal 800 68px/66px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  width: 894px;
+  height: 149px;
+  margin: 0 auto;
+  }
+
+  h4 {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 30px/66.48px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--białe);
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 1;
+    width: 776px;
+    height: 37px;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+
+ 

@@ -17,13 +17,13 @@ get_header();
     <div class="row">
         <div class="col-lg-12 text-center headings-container">
         <h4>Wodociągi i kanalizacja w Zgierzu od ponad 50 lat</h4>
-          <h1>Dostarczamy jakość&nbsp;do Twojego domu</h1>
+          <h1>Dostarczamy jakość do Twojego domu</h1>
 </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center hero-card-wrapper">
 
         <div class="hero-card d-block d-sm-inline">
             <div class="hero-card-logo">
-            <img src="http://wodkantheme.local/wp-content/uploads/2021/05/file1.png">
+            <img src="http://wk.local/wp-content/uploads/2021/05/file1.png">
             </div>
             <div class="hero-card-heading">
                 BOK
@@ -31,7 +31,7 @@ get_header();
         </div>
         <div class="hero-card d-block">
             <div class="hero-card-logo">
-            <img src="http://wodkantheme.local/wp-content/uploads/2021/05/file1.png">
+            <img src="http://wk.local/wp-content/uploads/2021/05/file1.png">
             </div>
             <div class="hero-card-heading">
                 Podpisz umowę
@@ -39,7 +39,7 @@ get_header();
         </div>
         <div class="hero-card d-block">
             <div class="hero-card-logo">
-                <img src="http://wodkantheme.local/wp-content/uploads/2021/05/file1.png">
+                <img src="http://wk.local/wp-content/uploads/2021/05/file1.png">
             </div>
             <div class="hero-card-heading">
                 Zgłoś stan licznika
@@ -47,7 +47,7 @@ get_header();
         </div>
         <div class="hero-card d-block sm-d-inline">
             <div class="hero-card-logo">
-            <img src="http://wodkantheme.local/wp-content/uploads/2021/05/file1.png">
+            <img src="http://wk.local/wp-content/uploads/2021/05/file1.png">
             </div>
             <div class="hero-card-heading">
                 Zgłoś awarię
@@ -55,7 +55,7 @@ get_header();
         </div>
         <div class="hero-card d-block">
             <div class="hero-card-logo">
-            <img src="http://wodkantheme.local/wp-content/uploads/2021/05/file1.png">
+            <img src="http://wk.local/wp-content/uploads/2021/05/file1.png">
             </div>
             <div class="hero-card-heading">
                 Jakość wody
