@@ -1,18 +1,22 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-.menu-item {
-padding: 0 15px;
+
+.container {
+  max-width: 1376px;
+}
+#main-nav {
+  height: 110px;
+}
+.nav-link {
+  font-weight: bold;
+}
+#main-menu li {
+padding: 0 6px;
 }
 
-.bgimage {
-    width:100%;
-    height: 684px;
-    background: url('http://wk.local/wp-content/uploads/2021/05/baner.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: inherit;
-    
-  }
+
+// hero section
+
   .bgimage h5 {
     color:white;
     text-shadow:2px 2px #333;
@@ -26,25 +30,46 @@ padding: 0 15px;
     margin: 0 auto;
     justify-content: center;
     flex-flow: inherit;
+    top: 10rem;
 
   }
 
   .hero-card {
-      width:165px;
-      height:145px;
+      width: 220px;
+      height: 193px;
       border: 2px solid white;
       margin: 0 auto;
       display: inline-flex;
       align-items: center;
       margin: 20px;
+      background: #141C31E6 0% 0% no-repeat padding-box;
+      border: 8px solid #FFFFFF;
+      margin: 11px;
+  }
+  .hero-card:hover {
+    background: #DD1354 0% 0% no-repeat padding-box;
+    cursor: pointer;
+
+}
+  .hero-card-logo {
+    position: relative;
+    top: 19px;
+    margin-top: 9px;
+    margin-bottom: 10px;
   }
 
   .hero-card-heading {
-    width: 100%;
+    max-width: 100%;
     position: relative;
-    top: 2rem;
+    top: 9.69px;
     color: #fff;
-    font-weight: 500;
+    text-transform: uppercase;
+    font: normal normal medium 21px/24px Montserrat;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.1;
+    padding: 21px;
     
   }
 .hero-container {
@@ -52,35 +77,665 @@ padding: 0 15px;
 }
 .headings-container {
     position: relative;
-    top: 11rem;
+    top: 115px;
 }
-  h1 {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 68px/66.48px var(--unnamed-font-family-montserrat);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--białe);
-  text-align: center;
-  font: normal normal 800 68px/66px Montserrat;
-  letter-spacing: 0px;
-  color: #FFFFFF;
+.news {
+  background-color: #ecf3f4;
+  min-height: 713px;
+}
+.news-container {
+  padding-top: 43px;
+}
+.news-container h4 {
+text-transform: uppercase;
+font-size:18px;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 68px;
+  font-weight: bolder;
   text-transform: uppercase;
-  opacity: 1;
-  width: 894px;
+  max-width: 894px;
   height: 149px;
   margin: 0 auto;
+  letter-spacing: 0px;
+  line-height: 69px;
+
+  
+}
+h4 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: medium;
+  margin: 0 auto;
+  max-width: 776px;
+  margin-bottom: 23px;
+}
+
+.news-wrapper {
+  display:flex;
+  justify-content: space-around;
+}
+
+.news-container h4 {
+  color: #DB1B56 !important;
+  margin: 0;
+}
+.news-container h2 {
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-size:36px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom:31px;
+  line-height: 36px;
+}
+
+.news-container {
+  max-width:1362px;
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.headings-news-container {
+  display:block;
+  text-align: left;
+  padding: 0;
+}
+.news-excerpt-container {
+  padding: 43px;
+  position: relative;
+  top: -66px;
+}
+
+.news-excerpt-container h5 {
+color: black;
+text-transform: uppercase;
+}
+.news-title, .date, .read-more-button {
+  font: normal normal 800 14px/30px Montserrat;
+letter-spacing: 0.7px;
+color: #11192E;
+text-transform: uppercase;
+}
+.news-excerpt-text {
+  text-align: left;
+font: normal normal medium 16px/24px Montserrat;
+letter-spacing: 0.8px;
+color: #575756;
+}
+
+.read-all-button, .download-button {
+  max-width: 296px;
+  height: 70px;
+  background: #dd1354 0 0 no-repeat padding-box;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0px;
+}
+
+.read-all-button-link {
+color: #fff;
+text-transform: uppercase;
+font-size: 20px;
+}
+.read-more-button {
+  text-align: right;
+}
+.news-box {
+  max-width: 399px;
+  max-height: 518px;
+  background-color: #fff;
+  padding: 0;
+  margin-bottom: 18px;
+
+}
+.news-box-row {
+justify-content: space-between;
+}
+
+.category-button {
+  width: 220px;
+  height: 40px;
+  background: #141C31 0% 0% no-repeat padding-box;
+  display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+position: relative;
+top: -40px;
+left: 25px;
+}
+.category-button span {
+  color: #fff;
+  font: normal normal 800 14px/30px Montserrat;
+  margin:  0 auto;
+}
+
+.services-bg {
+  background: url('http://wk.local/wp-content/uploads/2021/05/raindrops-bg.jpg');
+  max-width: 100%;
+  min-height: 684px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit
+}
+
+.headings-services-container {
+  display:block;
+  text-align: left;
+  padding: 0;
+}
+.headings-services-container h2 {
+  color: #fff;
+  text-align: left;
+  max-width: 490px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 31px !important;
+  line-height: 36px;
+}
+.headings-services-container h4 {
+  color: #db1b56;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+.white-text {
+  max-width: 387px;
+}
+
+.white-text p {
+  text-align: left;
+font: normal normal medium 18px/30px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.numbers-container {
+  display: inline-flex;
+}
+
+.clients-number-container .number {
+text-align: left;
+font: normal normal 800 36px/36px Montserrat;
+letter-spacing: 1.8px;
+color: #DB1B56;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.clients-number-container {
+font-size: 20px;
+}
+
+.services-container {
+    margin-top: 66px;
+}
+
+.box-1, .box-3 {
+margin-right: 24px;
+}
+.box-3, .box-4 {
+  margin-top:24px;
+}
+.services-box {
+  max-height: 274px;
+}
+.services-box-stripe-row-1 {
+  width: 270px;
+height: 81px;
+background: #DD1354 0% 0% no-repeat padding-box;
+opacity: .75;
+position: absolute;
+top: 190px;
+}
+
+.services-box-stripe-row-2 {
+  width: 270px;
+height: 81px;
+background: #DD1354 0% 0% no-repeat padding-box;
+opacity: .75;
+position: absolute;
+bottom: 0;
+}
+
+.services-box h3 {
+  text-align: left;
+font: normal normal bold 20px/25px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+width: 185px;
+margin-top: 17px;
+margin-left: 17px;
+}
+
+.box-3 h3 {
+  max-width: 81px;
+}
+
+.headings-news-container h4, .headings-news-container h2 {
+  text-align: left;
   }
 
-  h4 {
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 30px/66.48px var(--unnamed-font-family-montserrat);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--białe);
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FFFFFF !important;
-    opacity: 1;
-    width: 776px;
-    height: 37px;
-    margin: 0 auto;
-    font-size: 30px;
+  .services-1 {
+    position: relative;
+    left: 60px;
   }
 
+  .clients-number-container{
+    margin-left: 0;
+    margin-right: 79px;
+  }
+
+  .text-long {
+    text-align: left;
+font: normal normal medium 18px/30px Montserrat;
+letter-spacing: 0px;
+opacity: 1;
+font-weight: normal;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+max-width: 497px;
+  }
+
+
+ .download-button-link {
+    color: #fff;
+    font-size: 20px;
+    }
+
+
+.join-us-bg {
+    background: url('http://wk.local/wp-content/uploads/2021/05/abstract-background-with-water-wave.png');
+    max-width: 100%;
+    min-height: 684px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit
+  }
+  .join-us-headings-container h2 {
+    color: #000000;
+    text-align: left;
+    max-width: 490px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 31px!important;
+    line-height: 36px;
+}
+
+.join-us-headings-container h4 {
+  color: #DB1B56;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: medium;
+  margin: 0 auto;
+  max-width: 776px;
+  margin-bottom: 23px;
+}
+
+.emergency-bg {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 964px) { 
+  .hero-card-wrapper {
+    zoom: 0.8;
+  }
+  h1 {
+   font-size: 49px;
+   line-height: 28px;
+  }
+ }
+// Small devices (landscape phones, 380px and up)
+@media (min-width: 320px) and (max-width: 992px) { 
+  
+  .headings-container {
+    top: 2rem;
+}
+#main-nav {
+  height: 50px;
+}
+.img-fluid {
+    top: -7px;
+    left: 13px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+h1 {
+font-size:23px;
+max-width: 302px;
+margin-top: 14px;
+  
+}
+h4 {
+font-size: 9px;
+max-width: 234px;
+font-size: 17px;
+  
+}
+.hero-card {
+  top: 185px;
+  left: 39px;
+  width: 302px;
+  height: 42px;
+  background: #141C31E6 0% 0% no-repeat padding-box;
+  margin: 4px;
+  border:0px;
+  transform: scale(0.9);
+}
+.hero-card-logo {
+  display:none;
+}
+
+.hero-card-wrapper {
+  top: -2rem;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  align-items: center;
+  zoom: 1;
+}
+.hero-card-heading {
+  top: -11px;
+  text-transform: uppercase;
+}
+
+.headings-news-container h4, .headings-news-container h2 {
+  max-width: 100%;
+  text-align: center;
+}
+ }
+ .headings-news-container {
+  text-align: center;
+  }
+ @media (min-width: 767.98px) and (max-width:964px ) {
+   h1 {
+    line-height: 55px;
+   }
+  }
  
+  @media (min-width: 964px) and (max-width:1239px ) {
+.hero-card-wrapper {
+  zoom: 0.8;
+}
+  }
+
+  @media (min-width: 320px) and (max-width:1286px ) {
+    .news-box-row {
+      display:block;
+    }
+        #news-box-container {
+         display: flex;
+         justify-content: center;
+        }
+          
+      }
+      @media (min-width: 992px) { 
+        .bgimage {
+          max-width:100%;
+          height: 684px;
+          background: url('http://wk.local/wp-content/uploads/2021/05/baner.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: inherit;
+          
+        }
+      }
+      @media (max-width: 991px) { 
+        .bgimage {
+        max-height: 684px;
+        max-width:100%;
+        background: url('http://wk.local/wp-content/uploads/2021/05/baner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: inherit;
+        }
+        .read-all-button {
+          display:none;
+        }
+        .headings-services-container h2 {
+          font-size:23px;
+        }
+      }
+
+
+      @media (min-width: 992px) and (max-width:1240px ) {
+        .hero-card-wrapper {
+          flex-wrap: initial;
+        }
+      .hero-card-heading {
+        font-size: 16px;
+        }
+        
+        .hero-card-logo img {
+        width: 34%;
+        }
+      }
+      @media (min-width: 768px) and (max-width:991px) {
+      h1 {
+        line-height: 26px !important;
+      }
+    }
+    @media (min-width: 992px) and (max-width:1286px) {
+      .category-button {
+        left: 0rem;
+        top: 14.9rem;
+        position: absolute;
+      }
+      .news-box {
+        display: inline-flex;
+        max-width: 100%;
+      }
+      .news-excerpt-container {
+        padding: 39px;
+        top: 0;
+      }
+    }
+
+
+    @media (max-width: 1140px) { 
+ 
+    .headings-services-container h4 {
+      display: flex;
+      justify-content: center;
+    }
+    .headings-services-container h2 {
+    margin: 0 auto;
+  }
+  .white-text {
+    margin: 0 auto;
+    max-width: 489px;
+  }
+
+  .numbers-container.white-text {
+    max-width: 489px;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .numbers-container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+  }
+  .clients-number-container .number {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+.services-container .row {
+  display: flex;
+justify-content: center;
+}
+.box-1, .box-2, .box-3, .box-4 {
+  margin: 0;
+  }
+  .services .container {
+    min-height: 600px;
+  }
+  .services-bg {
+    height: auto;
+  }
+  .services-container {
+    margin-top: 0px;
+}
+  .services-1 {
+    left:0;
+    padding: 35px 35px 0 35px;
+  }
+  .services-2 {
+    margin-top: 24px;
+  }
+}
+  
+@media (max-width: 1140px) and (min-width: 749px) { 
+  .services-row {
+    display: inline-block;
+  } 
+} 
+@media (min-width: 576px) and (max-width:1140px) {
+  .services-2 {
+    max-width: 62%;
+    margin: 0 auto;
+  }
+}
+  @media (min-width: 320px) and (max-width:1140px) {
+    .services-box {
+      margin: 12px;
+    }
+    .services-bg {
+      background: url(http://wk.local/wp-content/uploads/2021/05/raindrops-bg-mobile.jpg);
+      background-size: cover;
+
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+} 
+@media (max-width: 576px) {
+  .headings-services-container h4 {
+    justify-content: center;
+  }}
+
+  @media (max-width: 948px) {
+    .services-box-stripe-row-1, .services-box-stripe-row-2  {
+      position: relative;
+      top: -81px;
+      display: flex;
+    }}
+
+    @media (max-width: 455px) {
+    .services-row {
+      display: flex;
+    }
+  }
